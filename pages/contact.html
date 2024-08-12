@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>contact</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+    <header class="contact-header">
+      <div class="contact-header-desc  container">
+          <ol class=" contact-header-list d-flex">
+          <li class="contact-header-list-a"><a href="">OPTICAL</a></li>
+          <li class="contact-header-list-a"><a href="">SUNGLASSES</a></li>
+          <li class="contact-header-list-a"><a href="">FUNCTIONAL</a></li>
+          </ol>
+      </div>
+  <div class="contact-header-banner d-flex">
+      <!--替換圖片 -->
+      <picture>
+      <source srcset="../assets/images/product-header-sm-3.png" media="(max-width: 768px)">
+      <!-- 預設圖片，通常是桌面版本 -->
+      <img src="../assets/images/product-header-3.png" alt="product-header-3">
+      </picture>
+      <picture>
+        <!--替換圖片 -->
+      <source srcset="../assets/images/product-header-sm-4.png" media="(max-width:  768px)">
+      <!-- 預設圖片，通常是桌面版本 -->
+      <img src="../assets/images/product-header-4.png" alt="product-header-4">
+      </picture>
+      </div>
+</header>
+
+<section class="section-contents">
+  <div class="container">
+      <div class="section-contents-title">
+          <h1>2020 NEW COLLECTION</h1>
+          <h2>賽璐珞鈦金屬混合鏡框</h2>
+      </div>
+
+       <!-- 商品 -->
+  <ol class="section-contents-list d-flex">
+      <li class="section-contents-column">
+          <a href="#">
+              <img  src="../assets/images/product-7.png" alt="product-7">
+              <div class="section-contents-info d-flex">
+                  <h3>BJ41600S</h3>
+                  <p>NTD3,490</p>
+              </div>
+              <div class="section-contents-info-color d-flex">
+                  <div class="section-info-color-1"></div>
+                  <div class="section-info-color-2"></div>
+              </div>
+          </a>
+      </li>
+      <li class="section-contents-column">
+          <a href="#">
+              <img  src="../assets/images/product-8.png" alt="product-7">
+              <div class="section-info d-flex">
+                  <h3>BJ41600S</h3>
+                  <p>NTD3,490</p>
+              </div>
+              <div class="section-contents-info-color d-flex">
+                  <div class="section-info-color-1"></div>
+                  <div class="section-info-color-2"></div>
+              </div>
+          </a>
+      </li>
+      <li class="section-contents-column">
+          <a href="#">
+              <img  src="../assets/images/product-9.png" alt="product-7">
+              <div class="section-info d-flex">
+                  <h3>BJ41600S</h3>
+                  <p>NTD3,490</p>
+              </div>
+              <div class="section-contents-info-color d-flex">
+                  <div class="section-contents-info-color-1"></div>
+                  <div class="section-contents-info-color-2"></div>
+              </div>
+          </a>
+      </li>
+      <li class="section-contents-column">
+          <a href="#">
+              <img  src="../assets/images/product-10.png" alt="product-7">
+              <div class="section-contents-info d-flex">
+                  <h3>BJ41600S</h3>
+                  <p>NTD3,490</p>
+              </div>
+              <div class="section-contents-info-color d-flex">
+                  <div class="section-contents-info-color-1"></div>
+                  <div class="section-contents-info-color-2"></div>
+              </div>
+          </a>
+      </li>
+      <li class="section-contents-column">
+          <a href="#">
+              <img  src="../assets/images/product-11.png" alt="product-7">
+              <div class="section-contents-info d-flex">
+                  <h3>BJ41600S</h3>
+                  <p>NTD3,490</p>
+              </div>
+              <div class="section-contents-info-color d-flex">
+                  <div class="section-contents-info-color-1"></div>
+                  <div class="section-contents-info-color-2"></div>
+              </div>
+          </a>
+      </li>
+      <li class="section-contents-column">
+          <a href="#">
+              <img  src="../assets/images/product-12.png" alt="product-7">
+              <div class="section-contents-info d-flex">
+                  <h3>BJ41600S</h3>
+                  <p>NTD3,490</p>
+              </div>
+              <div class="section-contents-info-color d-flex">
+                  <div class="section-contents-info-color-1"></div>
+                  <div class="section-contents-info-color-2"></div>
+              </div>
+          </a>
+      </li>
+  </ol>
+
+  <div  class="page-icon d-flex">
+      <span class="page-icon-previous">上一頁</span>
+      <ol class="page-icon-number d-flex">
+          <li><a href="">1</a></li>
+          <li><a href="">2</a></li>
+          <li><a href="">3</a></li>
+          <li><a href="">4</a></li>
+          <li><a href="">5</a></li>
+      </ol>
+      <span class="page-icon-next">下一頁</span>
+  </div>
+</div>
+
+</section>
+
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>
