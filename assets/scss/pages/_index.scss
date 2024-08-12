@@ -1,7 +1,7 @@
 //header
 
 .header{
-	background: url(../assets/images/home-header.png);
+	background: url(/assets/images/home-header.png);
 	background-size:cover;
 	background-position:center;
 	background-repeat: no-repeat;
@@ -42,7 +42,7 @@
 }
 @include mobile-larger{
   .header{
-		background: url(../assets/images/home-header-sm.png);
+		background: url(/assets/images/home-header-sm.png);
 		background-repeat: no-repeat;
     &-p{
       font-size: 36px;
@@ -188,7 +188,7 @@
 }
 @include max-md{
   .section-joint{
-    background: url(../assets/images/index-bg-md.png);
+    background: url(/assets/images/index-bg-md.png);
     background-size:  cover;
     background-position:center;
     background-repeat: no-repeat;
@@ -205,7 +205,7 @@
 
 @include mobile{
   .section-joint{
-    background: url(../assets/images/index-bg-sm.png);
+    background: url(/assets/images/index-bg-sm.png);
     background-size:  cover;
     background-position:center;
     background-repeat: no-repeat;
