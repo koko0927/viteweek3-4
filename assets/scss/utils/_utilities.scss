@@ -1,0 +1,62 @@
+// 共通class
+
+.container{
+	max-width: 1296px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+@include  max-md{
+	.container{
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+}
+
+.secondary_color{
+	color: #FBF2F2;
+}
+
+.d-flex{
+	display: flex;
+}
+
+.mr-16{
+	margin-right: 64px;
+}
+
+.mr-12{
+	margin-right: 48px;
+}
+
+.mb-9{
+	margin-bottom: 36px;
+}
+
+.mb-8{
+	margin-bottom: 32px;
+}
+
+.section-h2-r{
+	color: $secondary;
+	font-size: 48px;
+	font-weight: bold;
+	padding-bottom: 36.5px;
+}
+
+.section-h2-w{
+	color: #FFFFFF;
+	font-size: 48px;
+	font-weight: bold;
+	padding-bottom: 36.5px;
+}
+.title-center{
+	text-align: center;
+}
+
+@include  mobile{
+	.section-h2-r , .section-h2-w {
+		font-size: 24px;
+	}
+}
